@@ -1,0 +1,135 @@
+:root {   
+    --violeta: #503047;
+    --blanco: #ffffff;
+    --jaspe: #C05746;
+    --charcoal: #344055;
+    --coolgray: #888098;
+    --celadon: #B6EEA6;
+    --aqua: #A9FFCB;
+    --richblack: #0D1821;
+    --powerblue: #B4CDED;
+    --indigo: #344966;
+    --space: #484A47;
+    --lightgreen: #84E296;
+    --chinese: #856084;
+    --negro: #000000;
+    --amarillo:  #FFFF00;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+}
+
+/** Globales **/
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--lightgreen);
+    padding-top: 1rem;
+}
+
+.navegacion a {
+    display: block;
+    text-align: center;
+    color: var(--jaspe);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin: auto;
+}
+
+
+.titulo {
+    display: block;
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+.header{
+    text-decoration: none;
+}
+
+.lista {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.cv {
+    font-size: 4rem;
+    color: var(--indigo);
+    text-decoration: underline;
+}
+
+.principal {
+    text-align: center;
+    color: var(--indigo);
+    background-color: var(--blanco);
+    padding: 2rem;
+}
+
+.barra  {
+    text-decoration: none;
+    color: var(--indigo);
+}
+
+.hooby {
+    font-size: 3rem;
+    color: var(--indigo);
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: var(--lightgreen);
+    text-align: center;
+    color: var(--jaspe);
+    padding: 2rem;
+    margin-top: 25rem;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 700;
+    
+}
+
+.imag {
+    width: 10%;
+    height: 10%;
+}
+
+.listado {
+    font-size: 2rem;
+    color: var(--indigo);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+.presentacion {
+    font-size: 3rem;
+    color: var(--indigo);
+    text-decoration: underline;
+    padding: 2rem;
+}
+
+.parrafo {
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--indigo);
+    text-align: justify;
+}
+
+.shin {
+    width: 50%;
+}
